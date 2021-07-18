@@ -23,4 +23,4 @@ elif IndiceDeMassaCorporal > 30 and IndiceDeMassaCorporal <= 40:
     print("Você está \033[1;7;33m OBESO ")
 elif IndiceDeMassaCorporal > 40:
     print("Você está na faixa da \033[1;7;31m OBESIDADE MÓRBIDA ")
-print("\033[m(C) 2019 - Teclucas98")
+print("\033[m(C) 2019 - Lucas Matheus Costa")

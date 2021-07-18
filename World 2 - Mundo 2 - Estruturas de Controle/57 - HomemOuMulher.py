@@ -14,4 +14,4 @@ while laco:
 		laco = False
 #Fim
 print("Encerrando...")
-print("(C) 2019 - Teclucas98")
+print("(C) 2019 - Lucas Matheus Costa")
