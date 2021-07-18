@@ -22,4 +22,4 @@ elif (idade == 18):
 else:
     print("Já passou da hora de se alistar, você deveria ter se apresentado na junta militar há {} anos, Apresente-se lá imediatamente!".format(idade-18))
 
-print("(C) 2019-20 - Teclucas98")
+print("(C) 2019-20 - Luk")

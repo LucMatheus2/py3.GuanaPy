@@ -18,4 +18,4 @@ elif numero2 > numero1:
 else:
     print("Os números são iguais")
 
-print("(C) 2019-20 | Teclucas98")
+print("(C) 2019-20 | Luk")
