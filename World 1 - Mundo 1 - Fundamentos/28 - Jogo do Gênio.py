@@ -8,7 +8,7 @@
 from random import randint
 
 #Entrada de dados
-numeroDoUsuario = int(input("\033[32mEstou pensando em um número entre 0 e 5, qual o número :"))
+numeroDoUsuario = int(input("Estou pensando em um número entre 0 e 5, qual o número :"))
 
 #Processamento
 numeroDoComputador = randint(0,5)

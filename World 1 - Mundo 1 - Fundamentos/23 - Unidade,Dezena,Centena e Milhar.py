@@ -4,7 +4,7 @@
 # Belém: ???/2017-19
 '''
 #Entrada de dados
-numero = input("\033[32mDigite um número natural entre 0 e 9999 :")
+numero = input("Digite um número natural entre 0 e 9999 :")
 numeroDeCasas = len(numero)
 
 #Saida de dados

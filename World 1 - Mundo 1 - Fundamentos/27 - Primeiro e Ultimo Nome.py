@@ -5,7 +5,7 @@
 '''
 
 #Entrada de dados
-nomeCompleto = input("\033[31mDigite o seu nome completo : ")
+nomeCompleto = input("Digite o seu nome completo : ")
 
 #Processamento
 nomeCompleto = nomeCompleto.split()

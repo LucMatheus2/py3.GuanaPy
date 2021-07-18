@@ -4,7 +4,7 @@
 # Belém: ???/2017-19
 '''
 #Entrada de dados
-print("\033[34m======== TABUADA =======")
+print("======== TABUADA =======")
 numero = int(input("Qual a tabuada que você quer saber? :"))
 
 #Saída de dados
@@ -18,4 +18,3 @@ print("{} x 7 = {}".format(numero,numero*7))
 print("{} x 8 = {}".format(numero,numero*8))
 print("{} x 9 = {}".format(numero,numero*9))
 print("{} x 10 = {}".format(numero,numero*10))
-print("\033[m")

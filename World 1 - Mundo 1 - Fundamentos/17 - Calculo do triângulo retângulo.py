@@ -7,7 +7,7 @@
 from math import sqrt
 
 #Entrada de dados
-catetoOposto = float(input("\033[32mQual o valor do cateto oposto :"))
+catetoOposto = float(input("Qual o valor do cateto oposto :"))
 catetoAdjacente = float(input("Qual o valor do cateto adjacente :"))
 
 #Processamento

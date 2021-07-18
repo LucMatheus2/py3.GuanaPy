@@ -9,7 +9,7 @@ precoDaDiariaDoCarro = 60
 precoDoKmRodado = 0.15
 
 #Entrada de dados
-diasAlugados = int(input("\033[32mQuantos dias foram alugados :"))
+diasAlugados = int(input("Quantos dias foram alugados :"))
 kmsRodados = float(input("Quantos quilometros foram rodados :"))
 
 #Processamento

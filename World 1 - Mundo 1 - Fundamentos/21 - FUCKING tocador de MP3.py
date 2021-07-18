@@ -7,7 +7,6 @@
 import pygame
 
 #Processamento - Inicializar
-print("\033[36m")
 pygame.init()
 
 #Processamento - Tocar música
