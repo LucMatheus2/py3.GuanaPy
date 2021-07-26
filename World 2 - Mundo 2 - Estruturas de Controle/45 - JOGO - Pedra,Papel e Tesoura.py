@@ -43,4 +43,4 @@ elif escolhaDaMaquina == escolhaDoJogador:
 else:
 	print("\033[1;7;31m VOCÊ PERDEU! ")
 
-print("\033[m(C) 2019 - Teclucas98")
+print("\033[m(C) 2019 - Lucas Matheus Costa")

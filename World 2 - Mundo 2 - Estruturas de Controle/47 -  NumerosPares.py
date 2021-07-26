@@ -11,4 +11,4 @@ pares = int(input("\033[32mDigite um número para descobrir todos os pares :"))
 for i in range(1,pares+1):
     if(i%2 == 0):
         print(i)
-print("(C) 2019-20 - Teclucas98")
+print("(C) 2019-20 - Lucas Matheus Costa")

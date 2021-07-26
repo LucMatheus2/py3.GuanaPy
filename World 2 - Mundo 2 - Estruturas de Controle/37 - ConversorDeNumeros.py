@@ -26,4 +26,4 @@ elif (opcao == 3):
 else:
     print("\033[1;7;31mOPÇÃO INVÁLIDA, LEIA O MENU NOVAMENTE E DIGITE ALGUMA DAS OPÇÕES INDICADAS")
 print("\033[mObrigado por utilizar!")
-print("(C) 2019 - Tecluca98")
+print("(C) 2019 - Luk")

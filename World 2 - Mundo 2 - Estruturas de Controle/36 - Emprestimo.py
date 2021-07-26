@@ -24,4 +24,4 @@ mensagem += "\033[m"
 
 #Saida de dados
 print(mensagem)
-print(" (c) 2019-20 - Lucas Matheus Costa (Teclucas98/Luk)")
+print(" (c) 2019-20 - Lucas Matheus Costa (Luk)")

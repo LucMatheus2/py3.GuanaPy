@@ -25,4 +25,4 @@ elif (idadeDoCidadão > 19 and idadeDoCidadão <= 25):
 elif (idadeDoCidadão > 25):
     print("Você entrará na categoria MESTRE")
 
-print("(c) 2019-20 | Teclucas98")
+print("(c) 2019-20 | Lucas Matheus Costa")

@@ -62,4 +62,4 @@ while opcaoDoMenu != 5:
 	#Opção 6 ou outras - Não existe
 	else:
 		print("OPÇÃO INVALIDA")
-print("(C) 2019 - Teclucas98")
+print("(C) 2019 - Lucas Matheus Costa")
