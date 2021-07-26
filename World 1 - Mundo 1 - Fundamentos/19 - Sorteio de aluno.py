@@ -8,7 +8,7 @@
 from random import choice
 
 #Entrada de dados
-aluno01 = input("\033[34mDigite o nome do 1º Aluno :")
+aluno01 = input("Digite o nome do 1º Aluno :")
 aluno02 = input("Digite o nome do 2º Aluno :")
 aluno03 = input("Digite o nome do 3º Aluno :")
 aluno04 = input("Digite o nome do 4º Aluno :")

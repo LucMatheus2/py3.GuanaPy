@@ -5,11 +5,11 @@
 '''
 
 #Entrada de dados
-nome = input("\033[34mDigite o seu nome completo e aperte ENTER :")
+nome = input("Digite o seu nome completo e aperte ENTER :")
 
 #Processamento
 espacos = nome.count(' ')
-nomeQuebrado = nome.split();
+nomeQuebrado = nome.split()
 
 # Saida de dados
 print("O seu nome em MAIUSCULOS É : {}".format(nome.upper()))

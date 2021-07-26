@@ -5,7 +5,7 @@
 '''
 
 #Entrada de dados
-grausEmCelsius = float(input("\033[34mInforme a temperatura em celsius(ºC) :"))
+grausEmCelsius = float(input("Informe a temperatura em celsius(ºC) :"))
 
 #Processamento
 grausEmFahrenheit = ((9*grausEmCelsius)/5)+32

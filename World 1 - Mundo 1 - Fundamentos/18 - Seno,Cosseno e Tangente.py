@@ -8,7 +8,7 @@
 from math import sin,cos,tan,radians
 
 #Entrada de dados
-angulo = float(input("\033[32mQual o valor do ângulo :"))
+angulo = float(input("Qual o valor do ângulo :"))
 
 #Processamento
 angulo = radians(angulo)

@@ -5,7 +5,7 @@
 '''
 
 #Entrada de dados
-alturaDaParede = float(input("\033[35mQual a altura da parede em metros :"))
+alturaDaParede = float(input("Qual a altura da parede em metros :"))
 larguraDaParede = float(input("Qual a largura da parede em metros :"))
 
 #Processamento
