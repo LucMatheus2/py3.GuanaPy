@@ -6,8 +6,8 @@
 #Importação de pacotes
 import os
 
-#Limpar a tela
-os.system("clear")
+# Separar informações
+print("="*30)
 
 #Entrada de dados
 texto = input("\033[35mDigite um texto qualquer :")

@@ -1,4 +1,5 @@
-#Entrada de dados
+# Entrada de dados
 nome = input("Qual o seu nome? :")
-#Saída de dados
+
+# Saída de dados
 print("É um prazer em te conhecer {}".format(nome))
