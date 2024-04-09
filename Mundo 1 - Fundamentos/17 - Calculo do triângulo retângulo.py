@@ -1,9 +1,8 @@
-'''
-# Algoritmo : calculo da hipotenusa do triângulo retângulo.
+# Algoritmo : Calculo da hipotenusa do triângulo retângulo.
 # Autor: Lucas Matheus Costa
 # Belém: ???/2017-19
-'''
-#bibliotecas
+
+# Bibliotecas
 from math import sqrt
 
 #Entrada de dados
