@@ -1,0 +1,40 @@
+body {
+    margin: 0 20%;
+    font-family: "FreeSans", Arial, Helvetica, sans-serif;
+    background-color: #14191f;
+    color: #ffffff;
+}
+a {
+    color: #0048ff;
+}
+a:visited {
+    color: #ffba00;
+}
+header img {
+    max-width: 100%;
+}
+footer {
+    color: #CCC;
+}
+footer a {
+    color: #CCC;
+    text-decoration: underline;
+}
+#sobre {
+    text-align: justify;
+}
+#sobre nav ul {
+    list-style: none;
+}
+#sobre nav ul li {
+    margin: 1% 0;
+}
+#lista_de_exercicios ol {
+    list-style: decimal-leading-zero;
+}
+#lista_de_exercicios ol li {
+    margin-top: 1% 0;
+}
+#lista_de_exercicios ol li a {
+    text-transform: uppercase;
+}
