@@ -33,4 +33,4 @@ function filtrarLista(indice) {
 function autoload() {
     filtrarLista(1);
 }
-addEventListener("load",autoload);
+//addEventListener("load",autoload);
