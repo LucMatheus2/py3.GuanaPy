@@ -1,10 +1,6 @@
-'''
 # Algoritmo : Mostra os detalhes de uma variável
 # Autor: Lucas Matheus Costa
 # Belém: ???/2017
-'''
-#Importação de pacotes
-import os
 
 # Separar informações
 print("="*30)

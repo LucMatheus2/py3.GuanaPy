@@ -1,13 +1,9 @@
-'''
 # Algoritmo : Crediário
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: ???/2018-19
-'''
-#Importação de pacotes
-import os
 
-#Entrada de dados
+# Entrada de dados
 precoDoProduto = input("Digite o preço do produto (em R$) : ")
 precoDoProduto = float(precoDoProduto.replace(",","."))
 precoAPagar = 0
@@ -22,7 +18,7 @@ print("""
 """)
 opcaoEscolhida = input("Escolha a sua opçao : ")
 
-#Processamento
+# Processamento
 if (opcaoEscolhida == "C" or opcaoEscolhida == "CC"):
     parcela = int(input("""Quantas parcelas?
         (1) - A Vista.
@@ -36,7 +32,7 @@ if (opcaoEscolhida == "C" or opcaoEscolhida == "CC"):
 else:
     precoAPagar = precoDoProduto - 0.1*precoDoProduto
 
-#Saída de dados
+# Saída de dados
 print("=== CUPOM FISCAL ELETRÔNICO ===")
 print("Valor da Compra : R$ {:.2f}".format(precoDoProduto))
 if (precoAPagar-precoDoProduto > 0):

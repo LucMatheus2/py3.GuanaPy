@@ -1,14 +1,13 @@
-'''
 # Algoritmo : Programa do Detran-PA
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: ???/2018-19
-'''
-#Entrada de dados
+
+# Entrada de dados
 print("=== DETRAN-PA ===")
 velocidadeDoCondutor = int(input("Qual a velocidade do motorista (em km/h) :"))
 
-#Processamento e Saída
+# Processamento e Saída
 limiteDeVelocidade = 80
 
 if (velocidadeDoCondutor > limiteDeVelocidade):

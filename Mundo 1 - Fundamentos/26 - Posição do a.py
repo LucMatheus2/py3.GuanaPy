@@ -1,12 +1,11 @@
-'''
 # Algoritmo : Cadê o 'a'
 # Autor: Lucas Matheus Costa
 # Belém: ???/2017-19
-'''
-#Entrada de dados
+
+# Entrada de dados
 frase = input("Digite uma frase ou um nome :")
 
-#Processamento e Saída de dados
+# Processamento e Saída de dados
 frase = frase.lower()
 frase = frase.strip()
 

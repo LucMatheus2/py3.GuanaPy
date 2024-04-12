@@ -1,20 +1,19 @@
-'''
-Exercicios de tuplas aleatórias
+# Exercicios de tuplas aleatórias
+# 
+# @author Lucas Matheus Costa <lucasmccosta@outlook.com.br>
+# @since 18/07/2021
 
-@author Lucas Matheus Costa <teclucas.costa@hotmail.com>
-@since 18/07/2021
-'''
-#Importar pacotes
+# Importar pacotes
 from random import randint
 
-#Definindo a tupla aleatória
+# Definindo a tupla aleatória
 tuplaAleatoria = (
     randint(0,50),
     randint(0,50),
     randint(0,50),
     randint(0,50)
 )
-#Organizando uma nova tupla pra ajudar
+# Organizando uma nova tupla pra ajudar
 tuplaNova = sorted(tuplaAleatoria)
 
 #Saída de informações

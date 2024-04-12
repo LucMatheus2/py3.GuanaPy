@@ -1,4 +1,9 @@
-#Bibliotecas
+# Algoritmo que descobre par ou impar
+# @autor Lucas Matheus C. Costa <lucasmccosta@outlook.com.br>
+# @version 1.0.1
+# @since 2019? - Revisão 2024
+
+# Bibliotecas
 from random import randint
 numeroDoUsuario = somaDoJogo = numeroDeVitoriasDoUsuario = 0
 resultadoDoJuiz = ""

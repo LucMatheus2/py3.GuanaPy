@@ -1,8 +1,7 @@
-'''
 # Algoritmo : Desconto de 5% sobre o produto
 # Autor: Lucas Matheus Costa
 # Belém: ???/2017-19
-'''
+
 #Constantes
 percentualDeDesconto = 5 #<- Esse valor deve variar de 0 á 100
 

@@ -5,13 +5,13 @@
 # Bibliotecas
 from math import sqrt
 
-#Entrada de dados
+# Entrada de dados
 catetoOposto = float(input("Qual o valor do cateto oposto :"))
 catetoAdjacente = float(input("Qual o valor do cateto adjacente :"))
 
-#Processamento
+# Processamento
 hipotenusa = catetoOposto**2 + catetoAdjacente**2
 hipotenusa = sqrt(hipotenusa)
 
-#Saida de dados
+# Saida de dados
 print("O Valor da hipotenusa é {:.2f}".format(hipotenusa))

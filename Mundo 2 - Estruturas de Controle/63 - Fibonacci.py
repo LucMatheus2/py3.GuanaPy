@@ -1,9 +1,8 @@
-'''
 # Algoritmo : Fibbonachi
 # Versão 1.2
 # Autor: Lucas Matheus Costa
 # Belém: 05 de Janeiro de 2020
-'''
+
 print("\033[32m=*=SEQUÊNCIA DE FIBONACHII =*=")
 limiteDaSequencia = int(input("Digite quantos termos você quer : "))
 t1 = 0

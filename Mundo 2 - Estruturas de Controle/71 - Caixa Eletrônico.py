@@ -1,3 +1,9 @@
+# Simulação de um caixa eletrônico
+#
+# @author Lucas Matheus C. Costa <lucasmccosta@outlook.com.br>
+# @version 1.0.1
+# @since 2020?
+
 #Obs - ele ainda tá com um problema na seção dos 50 reais
 from math import trunc
 

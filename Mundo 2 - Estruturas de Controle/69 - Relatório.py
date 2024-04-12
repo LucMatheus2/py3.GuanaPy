@@ -1,5 +1,8 @@
-#Bibliotecas Importadas
-import os
+# Algoritmo de relatório, não lembro
+# 
+# @author Lucas Matheus C. Costa <lucasmccosta@outlook.com.br>
+# @version 1.0.1
+# @since 2020?
 
 #Varíaveis
 idadeDoUsuario = 0
@@ -31,7 +34,7 @@ while True:
     totalDePessoas+=1
     opcaoDoUsuario = input("Você quer continuar (S/N) : ")
     opcaoDoUsuario = opcaoDoUsuario.lower()
-    os.system("clear")
+    print("="*25)
     if (opcaoDoUsuario == "n"):
         break
 print("==FIM DA PESQUISA ===")

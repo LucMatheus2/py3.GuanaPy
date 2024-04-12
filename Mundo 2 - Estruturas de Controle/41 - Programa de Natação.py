@@ -1,16 +1,15 @@
-'''
 # Algoritmo : Programa de Natação
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: ???/2018-19
-'''
-#Importação de pacotes
+
+# Importação de pacotes
 from datetime import date
 
-#Entrada de dados
+# Entrada de dados
 anoDeNascimento = int(input("\033[34mDigite o seu ano de nascimento : "))
 
-#Processamento e Saída
+# Processamento e Saída
 anoAtual = date.today().year
 idadeDoCidadão = anoAtual - anoDeNascimento
 

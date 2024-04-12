@@ -1,9 +1,8 @@
-'''
 # Algoritmo : Mostra uma tabuada
 # Autor: Lucas Matheus Costa
 # Belém: ???/2017-19
-'''
-#Entrada de dados
+
+# Entrada de dados
 print("======== TABUADA =======")
 numero = int(input("Qual a tabuada que você quer saber? :"))
 
