@@ -1,18 +1,17 @@
-'''
 # Algoritmo : IMC
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: ???/2018-19
-'''
-#Entrada de dados
+
+# Entrada de dados
 print("\033[32m== CALCULO DO IMC ==")
 pesoDaPessoa = float(input("Digite o seu peso (em Kg) : "))
 alturaDaPessoa = float(input("Agora digite a sua altura (em m) : "))
 
-#Processamento
+# Processamento
 IndiceDeMassaCorporal = pesoDaPessoa / alturaDaPessoa**2
 
-#Saida de dados
+# Saida de dados
 if IndiceDeMassaCorporal < 18.5:
     print("Você está \033[1;30;45m ABAIXO DO PESO IDEAL ")
 elif IndiceDeMassaCorporal >= 18.5 and IndiceDeMassaCorporal <= 25:

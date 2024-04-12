@@ -1,17 +1,16 @@
-'''
 # Algoritmo : PA
 # Versão 1.2
 # Autor: Lucas Matheus Costa
 # Belém: 05 de Janeiro de 2020
-'''
-#Constantes
+
+# Constantes
 LIMITE_DA_PA = 10
 
-#Variáveis
+# Variáveis
 i = 1
 an = 0
 
-#Dados de Entrada
+# Dados de Entrada
 a1 = int(input("Qual o primeiro termo (a1) da PA : "))
 r = int(input("Qual a razão(r) : "))
 

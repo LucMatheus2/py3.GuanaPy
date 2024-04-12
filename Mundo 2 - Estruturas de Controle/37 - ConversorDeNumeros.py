@@ -1,10 +1,9 @@
-'''
 # Algoritmo : Conversor de números para binario, octal e hexadecimal
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: ???/2018-19
-'''
-#Entrada de dados
+
+# Entrada de dados
 print("== CONVERSOR DE NÚMEROS ==")
 numeroAleatorio = int(input("Digite um número inteiro e aperte ENTER : "))
 opcao = int(input("""\033[32m
@@ -16,7 +15,7 @@ Qual a base númerica de conversão:
 
 Digite a opção : """))
 
-#Processamento e Saida
+# Processamento e Saida
 if (opcao == 1) :
     print("O número em binário é {}".format(bin(numeroAleatorio)))
 elif (opcao == 2):

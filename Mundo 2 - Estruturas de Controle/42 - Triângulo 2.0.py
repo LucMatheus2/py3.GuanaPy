@@ -1,31 +1,31 @@
-'''
 # Algoritmo : Triângulo
 # Versão 2.0
 # Autor: Lucas Matheus Costa
 # Belém: ???/2018-19
-'''
-#Bibliotecas
+
+# Bibliotecas
 import os
 
-#Variaveis
-isTriangulo = False
-tipoDoTriangulo = ""
+# Variáveis
+isTriangulo = False # boolean
+tipoDoTriangulo = "" # string
 
-confirmacaoDoTriangulo = 0
-triangulo = ["0","0","0"]
-destaque = 0
-ladosIguais = 0
+confirmacaoDoTriangulo = 0 # integer
+triangulo = ["0","0","0"] # Array(3) <integer>
+destaque = 0 # integer
+ladosIguais = 0 # integer
 
-#Entrada de dados
+# Entrada de dados
 try:
     for i in range(0,3):
         triangulo[i] = int(input("Digite um valor para um lado : "))
 except ValueError:
     print("\033[1;7;31mNÃO DIGITE LETRAS, APENAS NÚMEROS!")
-#Processamento
+
+# Processamento
 os.system("clear")
 
-#É Triângulo
+# É Triângulo
 try:
     if (triangulo[0] < triangulo[1]+triangulo[2] and triangulo[0] > abs(triangulo[1]-triangulo[2])):
         confirmacaoDoTriangulo+=1

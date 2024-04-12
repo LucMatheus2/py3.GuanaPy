@@ -1,14 +1,12 @@
-'''
 # Algoritmo : Conversor de temperatura
 # Autor: Lucas Matheus Costa
 # Belém: ???/2017-19
-'''
 
-#Entrada de dados
+# Entrada de dados
 grausEmCelsius = float(input("Informe a temperatura em celsius(ºC) :"))
 
-#Processamento
+# Processamento
 grausEmFahrenheit = ((9*grausEmCelsius)/5)+32
 
-#Saída de dados
+# Saída de dados
 print("A Temperatura em fahrenheit é {:.1f} ºF".format(grausEmFahrenheit))

@@ -1,20 +1,19 @@
-'''
 # Algoritmo : PA
 # Versão 1.2
 # Autor: Lucas Matheus Costa
 # Belém: 05 de Janeiro de 2020
-'''
-#Constantes
+
+# Constantes
 LIMITE_DA_PA = 10
 
-#Variáveis
+# Variáveis
 i = 1
 an = 0
 contadorDeTermos = 0
 predecessorAnterior = 0
 sucessorDeTermos = 1
 
-#Dados de Entrada
+# Dados de Entrada
 a1 = int(input("Qual o primeiro termo (a1) da PA : "))
 r = int(input("Qual a razão(r) : "))
 
@@ -24,7 +23,7 @@ while i <= LIMITE_DA_PA:
     i += 1
 print("...")
 #---------------------------------------------------
-#Predecessor da PA
+# Predecessor da PA
 predecessorAnterior = LIMITE_DA_PA
 contadorDeTermos = LIMITE_DA_PA
 

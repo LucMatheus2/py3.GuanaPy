@@ -1,9 +1,8 @@
-'''
-Exercicios de tuplas agora trabalhando com a tabela do brasileirão
+# Exercicios de tuplas agora trabalhando com a tabela do brasileirão
+# 
+# @author Lucas Matheus Costa <teclucas.costa@hotmail.com>
+# @since 18/07/2021
 
-@author Lucas Matheus Costa <teclucas.costa@hotmail.com>
-@since 18/07/2021
-'''
 
 #Colocando a tabela do Brasileirão
 tabelaDoBrasileirao = ('Palmeiras','Atlético-MG','Fortaleza','Bragantino','Athletico-PR','Ceará SC','Bahia','Fluminense','Flamengo','Santos','Atlético-GO','Corinthians','Juventude','São Paulo','Internacional','América-MG','Cuiabá','Sport Recife','Grêmio','Chapecoense')

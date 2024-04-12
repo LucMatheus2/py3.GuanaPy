@@ -5,20 +5,20 @@
 # Belém: 2019-20
 '''
 
-#Importação de pacotes
+# Importação de pacotes
 import os
 from datetime import date
 
-#Constantes
+# Constantes
 LIMITE = 7 # <- Considerando 7 Pessoas
 MAIOR_IDADE = 21 # <- E a maior idade como 21 anos
 
-#Variaveis
+# Variáveis
 hoje = date.today().year
 quantidadeDeMenores = 0
 quantidadeDeMaiores = 0
 
-#Entrada de dados
+# Entrada de dados
 for i in range(0,LIMITE):
     anoDeNascimento = int(input("Digite o seu ano de nascimento ({}/{}) : ".format(i+1,LIMITE)))
     #Processamento
@@ -28,7 +28,7 @@ for i in range(0,LIMITE):
         quantidadeDeMaiores+=1
     os.system("clear")
     
-#Saída de dados
+# Saída de dados
 print("""
 === RESULTADO FINAL ===
 Idade referencial atual : {} Anos

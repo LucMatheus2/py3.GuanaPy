@@ -1,16 +1,15 @@
-'''
 # Algoritmo : Raio X, na verdade relatório
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: 2019-20
-'''
-#Importações
+
+# Importações
 import os
 
-#Constantes
+# Constantes
 LIMITE = 4
 
-#Variáveis
+# Variáveis
 nomeDoHomemMaisVelho = ""
 idadeDoHomemMaisVelho = 0
 numeroDeMulheresComMenosDeVinteAnos = 0
@@ -40,7 +39,7 @@ for i in range(0,LIMITE):
     if sexoBiologicoDoUsuario == "F" and idadeDoUsuario < 20:
         numeroDeMulheresComMenosDeVinteAnos+=1
         
-#Saída de dados
+# Saída de dados
 mediaDeIdadeDoGrupo = somatorioDoGrupo/LIMITE
 print("="*30)
 print("""

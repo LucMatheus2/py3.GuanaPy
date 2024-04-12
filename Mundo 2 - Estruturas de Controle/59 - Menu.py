@@ -1,17 +1,17 @@
-'''
 # Algoritmo : Menu
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: ???/2018-19
-'''
 
-#Variáveis e entrada
+
+# Variáveis e entrada
 numero1 = int(input("\033[32mDigite um número : "))
 numero2 = int(input("Digite outro número : "))
 maior = 0
 print("="*30)
 opcaoDoMenu = 0
-#Loop
+
+# Loop
 while opcaoDoMenu != 5:
 	print("""
 	=======================

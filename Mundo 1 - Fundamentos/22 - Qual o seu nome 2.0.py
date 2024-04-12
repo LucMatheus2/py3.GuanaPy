@@ -1,8 +1,7 @@
-'''
 # Algoritmo : Seu nome dissecado
 # Autor: Lucas Matheus Costa
 # Belém: ???/2017-19
-'''
+
 
 #Entrada de dados
 nome = input("Digite o seu nome completo e aperte ENTER :")

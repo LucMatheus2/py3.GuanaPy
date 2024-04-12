@@ -1,11 +1,9 @@
-'''
 # Algoritmo : Tabuada
 # Versão 3.0
 # Autor: Lucas Matheus Costa
 # OBS: É possivel com teste lógico simples, este visa apenas usando o break 
 # que é possível com alguns ifs
 # Belém: 05 de Janeiro de 2020
-'''
 
 numeroDaTabuada = 0
 

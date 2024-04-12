@@ -1,10 +1,9 @@
-'''
 # Algoritmo : Tabuada
 # Versão 2.0
 # Autor: Lucas Matheus Costa
 # Belém: 2019-20
-'''
-#Entrada de dados
+
+# Entrada de dados
 numeroDaTabuada = int(input("Digite um número para descobrir a tabuada : "))
 
 #Processamento e Saída

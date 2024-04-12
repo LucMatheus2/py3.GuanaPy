@@ -1,19 +1,17 @@
-'''
 # Algoritmo : Jogo - Pedra,Papel e Tesoura :D
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: ???/2018-19
-'''
-#Importação de pacotes
+
+# Importação de pacotes
 from random import choice
 
-#Entrada
+# Entrada
 opcoes = ["Pedra","Papel","Tesoura"]
 playerGanhou = False
 
 escolhaDoJogador = input("Escolha : Pedra, Papel ou Tesoura? :")
 escolhaDaMaquina = choice(opcoes)
-
 
 #Regras
 if escolhaDoJogador == "Pedra":
@@ -34,7 +32,7 @@ elif escolhaDoJogador == "Tesoura":
 else:
 	print("Esta opção não existe")
 
-#Saída de dados
+# Saída de dados
 print("A MAQUINA ESCOLHEU {}".format(escolhaDaMaquina))
 if playerGanhou:
 	print("\033[1;7;32m VOCÊ VENCEU! ")

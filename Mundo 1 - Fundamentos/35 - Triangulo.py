@@ -1,20 +1,19 @@
-'''
 # Algoritmo : Triângulo!
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: ???/2018-19
-'''
-#Bibliotecas
+
+# Bibliotecas
 import os
 
-#Entrada de dados
+# Entrada de dados
 reta1 = int(input('Digite o valor da reta 1 :'))
 reta2 = int(input('Digite o valor da reta 2 :'))
 reta3 = int(input('Digite o valor da reta 3 :'))
 confirmacaoDoTriangulo = 0
 isTriangulo = False
 
-#Processamento
+# Processamento
 os.system("clear")
 
 if (reta1 < reta2+reta3 and reta1 > abs(reta2-reta3)):
@@ -26,7 +25,7 @@ if (reta3 < reta2+reta1 and reta3 > abs(reta2-reta1)):
 if (confirmacaoDoTriangulo == 3):
     isTriangulo = True
 
-#Saida de dados - FORMA UM TRIÂNGULO
+# Saida de dados - FORMA UM TRIÂNGULO
 if (isTriangulo):
     print("Forma um triângulo")
 else:

@@ -1,3 +1,9 @@
+# Cadastro de produto eu acho
+#
+# @author Lucas Matheus C. Costa <lucasmccosta@outlook.com.br>
+# @version 1.0.1
+# @since 2020?
+
 #Variáveis
 nomeDoProduto = ""
 precoDoProduto = 0

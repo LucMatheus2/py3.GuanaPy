@@ -1,13 +1,12 @@
-'''
 # Algoritmo : Unidade,dezena ou centena impressas
 # Autor: Lucas Matheus Costa
 # Belém: ???/2017-19
-'''
-#Entrada de dados
+
+# Entrada de dados
 numero = input("Digite um número natural entre 0 e 9999 :")
 numeroDeCasas = len(numero)
 
-#Saida de dados
+# Saida de dados
 
 if (numeroDeCasas > 4):
     print("Digite um número válido na condição mencionada acima")

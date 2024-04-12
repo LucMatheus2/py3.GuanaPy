@@ -1,9 +1,8 @@
-'''
 # Algoritmo : Somarização dos números, digite 999 para parar
 # Versão 1.0
 # Autor: Lucas Matheus Costa
 # Belém: 05 de Janeiro de 2020
-'''
+
 opcao = "S"
 limiteDoLaco = 10
 

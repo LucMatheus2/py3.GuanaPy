@@ -1,8 +1,7 @@
-'''
 # Algoritmo : Tocador MP3
 # Autor: Lucas Matheus Costa
 # Belém: ???/2017-19
-'''
+
 #Bibliotecas
 import pygame
 
@@ -10,7 +9,7 @@ import pygame
 pygame.init()
 
 #Processamento - Tocar música
-pygame.mixer.music.load('dog.mp3')
+pygame.mixer.music.load('audio/dog.mp3')
 pygame.mixer.music.play()
 
 #Esperar
